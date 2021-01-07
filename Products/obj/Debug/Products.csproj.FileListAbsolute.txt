@@ -1,0 +1,58 @@
+E:\3КУРС\ПРАКТИКА ПРОГР\program\Products\Products\obj\Debug\Products.csprojAssemblyReference.cache
+E:\3КУРС\ПРАКТИКА ПРОГР\program\Products\Products\obj\Debug\MainWindow.g.cs
+E:\3КУРС\ПРАКТИКА ПРОГР\program\Products\Products\obj\Debug\App.g.cs
+E:\3КУРС\ПРАКТИКА ПРОГР\program\Products\Products\obj\Debug\Products_MarkupCompile.cache
+E:\3КУРС\ПРАКТИКА ПРОГР\program\Products\Products\obj\Debug\Products_MarkupCompile.lref
+E:\3КУРС\ПРАКТИКА ПРОГР\program\Products\Products\obj\Debug\Products.exe
+E:\3КУРС\ПРАКТИКА ПРОГР\program\Products\Products\obj\Debug\Products.pdb
+E:\3KURS\PracticePROGR\program\Products\Products\bin\Debug\Products.exe.config
+E:\3KURS\PracticePROGR\program\Products\Products\bin\Debug\Products.exe
+E:\3KURS\PracticePROGR\program\Products\Products\bin\Debug\Products.pdb
+E:\3KURS\PracticePROGR\program\Products\Products\obj\Debug\MainWindow.g.cs
+E:\3KURS\PracticePROGR\program\Products\Products\obj\Debug\App.g.cs
+E:\3KURS\PracticePROGR\program\Products\Products\obj\Debug\Products_MarkupCompile.cache
+E:\3KURS\PracticePROGR\program\Products\Products\obj\Debug\Products_MarkupCompile.lref
+E:\3KURS\PracticePROGR\program\Products\Products\obj\Debug\MainWindow.baml
+E:\3KURS\PracticePROGR\program\Products\Products\obj\Debug\Products.g.resources
+E:\3KURS\PracticePROGR\program\Products\Products\obj\Debug\Products.Properties.Resources.resources
+E:\3KURS\PracticePROGR\program\Products\Products\obj\Debug\Products.csproj.GenerateResource.cache
+E:\3KURS\PracticePROGR\program\Products\Products\obj\Debug\Products.csproj.CoreCompileInputs.cache
+E:\3KURS\PracticePROGR\program\Products\Products\obj\Debug\Products.exe
+E:\3KURS\PracticePROGR\program\Products\Products\obj\Debug\Products.pdb
+E:\3KURS\PracticePROGR\program\Products\Products\bin\Debug\user.db
+E:\3KURS\PracticePROGR\program\Products\Products\bin\Debug\EntityFramework.dll
+E:\3KURS\PracticePROGR\program\Products\Products\bin\Debug\EntityFramework.SqlServer.dll
+E:\3KURS\PracticePROGR\program\Products\Products\bin\Debug\System.Data.SqlClient.dll
+E:\3KURS\PracticePROGR\program\Products\Products\bin\Debug\System.Data.SQLite.dll
+E:\3KURS\PracticePROGR\program\Products\Products\bin\Debug\System.Data.SQLite.EF6.dll
+E:\3KURS\PracticePROGR\program\Products\Products\bin\Debug\System.Data.SQLite.Linq.dll
+E:\3KURS\PracticePROGR\program\Products\Products\bin\Debug\EntityFramework.xml
+E:\3KURS\PracticePROGR\program\Products\Products\bin\Debug\EntityFramework.SqlServer.xml
+E:\3KURS\PracticePROGR\program\Products\Products\bin\Debug\System.Data.SqlClient.xml
+E:\3KURS\PracticePROGR\program\Products\Products\bin\Debug\System.Data.SQLite.xml
+E:\3KURS\PracticePROGR\program\Products\Products\obj\Debug\Products.csproj.CopyComplete
+E:\3KURS\PracticePROGR\program\Products\Products\bin\Debug\MaterialDesignColors.dll
+E:\3KURS\PracticePROGR\program\Products\Products\bin\Debug\MaterialDesignThemes.Wpf.dll
+E:\3KURS\PracticePROGR\program\Products\Products\bin\Debug\MaterialDesignColors.pdb
+E:\3KURS\PracticePROGR\program\Products\Products\bin\Debug\MaterialDesignThemes.Wpf.pdb
+E:\3KURS\PracticePROGR\program\Products\Products\bin\Debug\MaterialDesignThemes.Wpf.xml
+E:\3KURS\PracticePROGR\program\Products\Products\obj\Debug\App.baml
+E:\3KURS\PracticePROGR\program\Products\Products\obj\Debug\UserAuthorization.g.cs
+E:\3KURS\PracticePROGR\program\Products\Products\obj\Debug\UserRegistration.g.cs
+E:\3KURS\PracticePROGR\program\Products\Products\obj\Debug\UserAuthorization.baml
+E:\3KURS\PracticePROGR\program\Products\Products\obj\Debug\UserRegistration.baml
+E:\3KURS\PracticePROGR\program\Products\Products\obj\Debug\ProductsList.g.cs
+E:\3KURS\PracticePROGR\program\Products\Products\obj\Debug\ProductsList.baml
+E:\3KURS\PracticePROGR\program\Products\Products\obj\Debug\Profile.g.cs
+E:\3KURS\PracticePROGR\program\Products\Products\obj\Debug\Profile.baml
+E:\3KURS\PracticePROGR\program\Products\Products\bin\Debug\products.db
+E:\3KURS\PracticePROGR\program\Products\Products\obj\Debug\Products_Content.g.cs
+E:\3KURS\PracticePROGR\program\Products\Products\obj\Debug\Products.csprojAssemblyReference.cache
+E:\3KURS\PracticePROGR\program\Products\Products\obj\Debug\CreateNew.g.cs
+E:\3KURS\PracticePROGR\program\Products\Products\obj\Debug\CreateNew.baml
+E:\3KURS\PracticePROGR\program\Products\Products\obj\Debug\UpdateOld.g.cs
+E:\3KURS\PracticePROGR\program\Products\Products\obj\Debug\UpdateOld.baml
+E:\3KURS\PracticePROGR\program\Products\Products\obj\Debug\ProfileData.g.cs
+E:\3KURS\PracticePROGR\program\Products\Products\obj\Debug\ProfileData.baml
+E:\3KURS\PracticePROGR\program\Products\Products\obj\Debug\DateCheckWindow.g.cs
+E:\3KURS\PracticePROGR\program\Products\Products\obj\Debug\DateCheckWindow.baml

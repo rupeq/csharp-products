@@ -1,0 +1,19 @@
+﻿<Window x:Class="Products.ProfileData"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Products"
+        mc:Ignorable="d"
+        Title="ProfileData" Height="570" Width="340">
+    <Grid>
+        <Button Content="З а к р ы т ь" HorizontalAlignment="Left" Margin="48,470,0,0" VerticalAlignment="Top" Width="242" Click="Button_Click"/>
+        <Label Content="В а ш   л о г и н" HorizontalAlignment="Center" Margin="76,161,78.6,0" VerticalAlignment="Top" Width="179" FontSize="24"/>
+        <TextBox HorizontalAlignment="Center" Height="36" Margin="42,225,42.6,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="249" IsReadOnly="True" FontSize="18" x:Name="LoginBox"/>
+        <Label Content="В а ш   п а р о л ь" HorizontalAlignment="Center" Margin="68,299,65.6,0" VerticalAlignment="Top" Width="200" FontSize="24"/>
+        <TextBox HorizontalAlignment="Center" Height="36" Margin="42,371,41.6,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="250" IsReadOnly="True" FontSize="18" x:Name="PasswordBox"/>
+        <Label Content="В а ш а   п о ч т а" HorizontalAlignment="Center" Margin="76,18,65.6,0" VerticalAlignment="Top" Width="192" FontSize="24"/>
+        <TextBox HorizontalAlignment="Center" Height="36" Margin="42,79,42.6,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="249" IsReadOnly="True" FontSize="18" x:Name="EmailBox"/>
+
+    </Grid>
+</Window>

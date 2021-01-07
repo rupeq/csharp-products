@@ -1,0 +1,58 @@
+﻿<Page x:Class="Products.UpdateOld"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Products"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="776"
+      Title="UpdateOld">
+
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="14*"/>
+        </Grid.RowDefinitions>
+        <TextBox HorizontalAlignment="Left" 
+                 Height="23" Margin="121,26.4,0,0" 
+                 TextWrapping="Wrap" 
+                 VerticalAlignment="Top" 
+                 Width="645"
+                 x:Name="Group" Grid.Row="1"/>
+        <TextBox HorizontalAlignment="Left" 
+                 Height="23" 
+                 Margin="121,82.4,0,0" 
+                 TextWrapping="Wrap" 
+                 VerticalAlignment="Top"
+                 Width="645"
+                 x:Name="ProductName" Grid.Row="1"/>
+        <TextBox HorizontalAlignment="Left" 
+                 Height="23" 
+                 Margin="121,150.4,0,0" 
+                 TextWrapping="Wrap" 
+                 VerticalAlignment="Top" 
+                 Width="645"
+                 x:Name="Maker" Grid.Row="1"/>
+        <TextBox HorizontalAlignment="Left" 
+                 Height="23" 
+                 Margin="121,220.4,0,0" 
+                 TextWrapping="Wrap" 
+                 VerticalAlignment="Top" 
+                 Width="645"
+                 x:Name="Date" Grid.Row="1"/>
+        <TextBox HorizontalAlignment="Left" 
+                 Height="23" 
+                 Margin="121,301.4,0,0" 
+                 TextWrapping="Wrap" 
+                 VerticalAlignment="Top" 
+                 Width="645"
+                 x:Name="Expiry" Grid.Row="1"/>
+        <Label Content="Группа товаров" HorizontalAlignment="Left" Margin="121,2.4,0,0" VerticalAlignment="Top" Width="645" Grid.Row="1"/>
+        <Label Content="Наименование товара" HorizontalAlignment="Left" Margin="121,57.4,0,0" VerticalAlignment="Top" Width="645" Grid.Row="1"/>
+        <Label Content="Изготовитель" HorizontalAlignment="Left" Margin="121,133.4,0,0" VerticalAlignment="Top" Width="645" Grid.Row="1"/>
+        <Label Content="Дата изготовления" HorizontalAlignment="Left" Margin="121,196.4,0,0" VerticalAlignment="Top" Width="645" Grid.Row="1"/>
+        <Label Content="Срок годности" HorizontalAlignment="Left" Margin="121,272.4,0,0" VerticalAlignment="Top" Width="645" Grid.Row="1"/>
+        <Button x:Name="Continue" Content="Завершить" HorizontalAlignment="Left" Margin="121,378.4,0,0" VerticalAlignment="Top" Width="645" Grid.Row="1" Click="Continue_Click"/>
+
+    </Grid>
+</Page>

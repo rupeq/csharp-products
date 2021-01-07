@@ -1,0 +1,139 @@
+﻿<Page x:Class="Products.ProductsList"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Products"
+      mc:Ignorable="d" 
+      d:DesignHeight="574.4" d:DesignWidth="935.2"
+       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      Title="ProductsList">
+    <Grid Background="White"
+          x:Name="TableContent">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="Auto" MinWidth="776"/>
+        </Grid.ColumnDefinitions>
+
+        <DataGrid HorizontalAlignment="Left" 
+                  
+                  Height="502"
+                  Margin="28,40,0,0" 
+                  VerticalAlignment="Top" 
+                  Width="835" 
+                  CanUserReorderColumns="False"
+                  CanUserResizeColumns="False"
+                  CanUserSortColumns="False"
+                  AutoGenerateColumns="True"
+                  ItemsSource="{Binding PCollection}"
+                  IsReadOnly="True"
+                  Name="ProductsTable" 
+                  Grid.ColumnSpan="2" 
+                  Loaded="ProductsTable_Loaded">
+
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Группа товаров" 
+                                    Width="170"
+                                    Binding="{Binding GroupName}"/>
+                <DataGridTextColumn Header="Наименование" 
+                                    Width="170"
+                                    Binding="{Binding ProductName}"/>
+                <DataGridTextColumn Header="Изготовитель" 
+                                    Width="170"
+                                    Binding="{Binding Maker}"/>
+                <DataGridTextColumn Header="Дата изготовления"
+                                    Binding="{Binding ProductionDate}"
+                                    Width="180"/>
+                <DataGridTextColumn Header="Срок годности" 
+                                    Width="150"
+                                    Binding="{Binding ExpiryTime}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Grid x:Name="Buttons" Margin="0,0,159.2,0.4">
+            <Button Content="+" 
+                    HorizontalAlignment="Left" 
+                    Margin="878,40,-921,0" 
+                    VerticalAlignment="Top" 
+                    Width="43" 
+                    Grid.Column="1" 
+                    Click="AddBtn_Click" 
+                    x:Name="PlusBtn"/>
+            <Button Content="-" 
+                    HorizontalAlignment="Left" 
+                    Margin="878,105,-921,0" 
+                    VerticalAlignment="Top" 
+                    Width="43" 
+                    Grid.Column="1"
+                    x:Name="DeleteBtn" Click="DeleteBtn_Click"/>
+            <Button Content="S" 
+                    HorizontalAlignment="Left" 
+                    Margin="878,243,-921,0" 
+                    VerticalAlignment="Top" 
+                    Width="43" 
+                    Grid.Column="1"
+                    x:Name="SerializeBtn" Click="SerializeBtn_Click"/>
+            <Button Content="DS" 
+                    HorizontalAlignment="Left" 
+                    Margin="878,318,-921,0" 
+                    VerticalAlignment="Top" 
+                    Width="43" 
+                    Padding="10,4,16,4" 
+                    Grid.Column="1"
+                    x:Name="DeserializeBtn" 
+                    Click="DeserializeBtn_Click"/>
+            <Button Visibility="Collapsed" 
+                    Content="A" 
+                    HorizontalAlignment="Left" 
+                    Margin="878,40,-921,0" 
+                    VerticalAlignment="Top" 
+                    Width="43" 
+                    Grid.Column="1" 
+                    x:Name="ApplyBtn" 
+                    Click="ApplyBtn_Click"/>
+            <Button Content="U" 
+                    HorizontalAlignment="Left" 
+                    Margin="878,174,-921,0" 
+                    VerticalAlignment="Top" 
+                    Width="43" 
+                    Grid.Column="1" 
+                    x:Name="UpdateBtn"
+                    Click="UpdateBtn_Click"/>
+            <Button HorizontalAlignment="Left" 
+                    Margin="878,472,-921,0" 
+                    VerticalAlignment="Top" 
+                    Width="43" 
+                    Padding="10,4,16,4" 
+                    Grid.Column="1" 
+                    BorderBrush="{x:Null}"
+                    x:Name="DateBtn"
+                    Height="42" 
+                    Click="DateBtn_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="Assets/calendar.png"/>
+                </Button.Background>
+            </Button>
+        </Grid>
+        <Grid Margin="0,0,72.2,0.4" Grid.ColumnSpan="2">
+            <TextBox x:Name="SearchText" HorizontalAlignment="Left" Height="23" Margin="28,9,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="835"/>
+        </Grid>
+
+
+        <Frame x:Name="CreateFrame" Margin="28,10,72.2,0.4" Grid.ColumnSpan="2"/>
+        <Button x:Name="SearchBtn" 
+                    Margin="707.8,10,72.2,521.4" 
+                    Height="Auto" 
+                    BorderBrush="{x:Null}" 
+                    Click="SearchBtn_Click" 
+                    RenderTransformOrigin="1.963,0.417" Grid.Column="1">
+            <Button.Foreground>
+                <ImageBrush ImageSource="Assets/search.png"/>
+            </Button.Foreground>
+            <Button.Background>
+                <ImageBrush ImageSource="Assets/search.png"/>
+            </Button.Background>
+        </Button>
+
+
+    </Grid>
+</Page>
